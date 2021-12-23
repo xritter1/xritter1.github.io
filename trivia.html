@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- set viewport to device width to allow responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/trivia.css">
+
+    <title>Trivia Game XR</title>
+
+</head>
+
+<body>
+    <!-- one container for the title -->
+    <h1 class="text-center">Welcome to XENIA's Trivia Game!</h1>
+
+    <!-- one container with trivia boxes inside -->
+    <div class="container">
+        <div id="trivia"></div>
+    </div>
+
+    <!-- refresh button for next round -->
+    <div class="next">
+        <input type="button" value="Next Round!" onClick="refresh(this)" id="nextround">
+    </div>
+
+    <!-- go back button -->
+    <div class="goback">
+        <input type="button" value="Take me back to main" onclick="window.location='intro.html';" id="back">
+    </div>
+
+
+</body>
+<script src="scripts/trivia.js"></script>
+
+</html>
