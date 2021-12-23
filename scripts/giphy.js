@@ -27,7 +27,7 @@ async function getData(event) {
                 block.appendChild(dogsImages);
                 var out = document.querySelector('.out');
                 out.insertAdjacentElement('afterbegin', block)
-                box.classList.add("last-box")
+
             }
         })
         .catch(err => {
