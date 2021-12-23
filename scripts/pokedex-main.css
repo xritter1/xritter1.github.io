@@ -1,0 +1,41 @@
+h1 {
+    color: pink;
+}
+
+.formbutton {
+    width: 500px;
+}
+
+#inputBar {
+    width: 400px;
+    border-radius: 5px;
+}
+
+#pokemonName {
+    width: 20%;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#pokemonHeight {
+    width: 5%;
+    background-color: deepskyblue;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#box3 {
+    width: 5%;
+    background-color: darkseagreen;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#submitButton {
+    background-color: pink;
+    border-radius: 10px;
+}

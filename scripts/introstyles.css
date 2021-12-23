@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.first {
+    margin: 10%;
+    background-color: #d5adc8;
+    background-image: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.first:hover {
+    transform: scale(1.1, 2);
+    box-shadow: 0 0 10px #d5adc8;
+    background-image: linear-gradient(315deg, #ff8489 0%, #d5adc8 74%);
+}
+
+.second {
+    margin: 10%;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.second:hover {
+    transform: scale(1.1, 2);
+    box-shadow: 0 0 10px #20bf55;
+    background-image: linear-gradient(315deg, #01baef 0%, #20bf55 74%);
+}
+
+.third {
+    margin: 10%;
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.third:hover {
+    transform: scale(1.1, 2);
+    box-shadow: 0 0 10px #f5d020;
+    background-image: linear-gradient(315deg, #f53803 0%, #f5d020 74%);
+}
