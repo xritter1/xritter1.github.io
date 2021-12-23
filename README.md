@@ -1,3 +1,3 @@
 # xritter1.github.io
 
-(trivia)[trivia.html]
+[trivia](trivia.html)
