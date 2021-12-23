@@ -1,3 +1,3 @@
 # xritter1.github.io
 
-test
+(trivia)[trivia.html]
