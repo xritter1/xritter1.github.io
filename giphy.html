@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- set viewport to device width to allow responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/giphy.css">
+
+    <!-- JS -->
+    <!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+
+
+    <title>Giphy</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Giphy</h1>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <form class="form-inline">
+                    <label>Search Gifs</label>
+                    <input type="text" class="form-control gif-input" name="q" placeholder="type in anything" id="textInput">
+                    <input type="hidden" name="api_key" value="dc6zaTOxFJmzC">
+                    <input type="button" value="Go!" class="btn btn-primary" id="submitButton">
+                    <button id="clear">Clear Search</button>
+                </form>
+
+            </div>
+            <!-- fetch; append figs in a block-->
+            <div id="urlID"> </div>
+
+            <!-- output to attach fig after each previous fig-->
+            <div class="out"></div>
+
+            <!-- load more button -->
+            <button id="dots">load more</button>
+
+
+        </div>
+    </div>
+</body>
+<script src="scripts/giphy.js"></script>
+
+</html>

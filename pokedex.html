@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dec 2 lesson</title>
+    <meta name="description" content="Rover sample site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="css/normalize.css">  -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/pokedex-main.css">
+</head>
+
+<body>
+
+    <h1>API Pokedex</h1>
+    <div class="formbutton">
+        <div id="intro">
+            Find out more about all the Pokemon!
+        </div>
+        <br>
+
+        <!-- this prepares for the first JS calls -->
+        <form id="searchBar">
+            <input type="text" value="" placeholder="Type a number and click 'Submit'" id="inputBar">
+            <input type="button" value="Submit!" id="submitButton">
+        </form>
+    </div>
+
+    <br>
+    <!-- we are calling the name of the API response into the html -->
+    <div id="box1">
+        <h2 id="pokemonName"></h2>
+    </div>
+    <br>
+
+    <div id="box2">
+        <h3 id="pokemonHeight"></h3>
+    </div>
+
+    <div id="box2a"></div>
+
+    <br>
+
+
+    <div id="box3">
+        <h3 id="pokemonT"></h3>
+    </div>
+
+    <br>
+
+    <div id="box4">
+        <img src id="pokemonImage">
+        </img>
+    </div>
+
+
+
+
+
+    <script src="scripts/pokedex.js"></script>
+</body>
+
+</html>
