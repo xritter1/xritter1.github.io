@@ -1,3 +1,3 @@
 # xritter1.github.io
 
-[Intro](intro.html)
+[Click to visit webpage](xritter1.github.io)
