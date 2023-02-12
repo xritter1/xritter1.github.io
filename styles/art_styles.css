@@ -1,0 +1,83 @@
+/* site-specific */
+.header-link-art {
+    background-color: #FDE300;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+/* social media icons */
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  max-width: 1200px;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.img-item {
+    margin: 10px;
+  }
+
+/* photo slideshow */
+
+.w3-content {
+  margin: 5%;
+}
+
+
+/* social icons */
+.social-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  margin: 1%;
+  align-items: center;
+}
+
+/* painting icons image grid*/
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 100px;
+  max-width: 920px;
+  justify-content: center;
+}
+
+.image-fit {
+  flex: 0 0 auto;
+  margin: 20px;
+  position: relative;
+  width: calc(25% - 10px);
+}
+.image-fit-placeholder {
+  height: 100%;
+  visibility: hidden;
+  width: 100%;
+}
+
+.image-fit-img {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
