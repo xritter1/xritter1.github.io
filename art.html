@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/intro_styles.css">
+    <link rel="stylesheet" href="styles/code_styles.css">
+    <link rel="stylesheet" href="styles/art_styles.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+    <!-- title -->
+    <title>XR - Art</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-container">
+        <section class="header-center">
+            <a class="header-link" href="home.html" id="home">Home</a>
+            <a class="header-link" href="about.html" id="aboutme">About</a>
+            <a class="header-link" href="work.html" id="code">Work</a>
+            <!-- <a class="header-link" href="#" id="ux">UX/UI</a> -->
+            <a class="header-link-art" href="art.html" id="art">Art</a>
+        </section>
+
+        <!-- <section class="header-right-mobile">
+                <img src="img/hamburger.svg" alt="hamburger-icon" id="hamburger">
+            </section> -->
+    </header>
+
+    <section class="social">
+        <section class="photo">
+            <div class="section-title">
+                Photography
+            </div>
+
+
+
+            <!-- begin slideshow -->
+
+            <div class="w3-content w3-section">
+                <img class="mySlides" src="img/IMG_0150.jpg" style="width:100%">
+                <img class="mySlides" src="img/IMG_8386.JPG" style="width:100%">
+                <img class="mySlides" src="img/IMG_5819-1.JPG" style="width:100%">
+                <img class="mySlides" src="img/IMG_8394.JPG" style="width:100%">
+                <img class="mySlides" src="img/IMG_7217-9.jpg" style="width:100%">
+                <img class="mySlides" src="img/IMG_0100-2.jpg" style="width:100%">
+                <img class="mySlides" src="img/IMG_3048-1.jpg" style="width:100%">
+                <img class="mySlides" src="img/IMG_8301.JPG" style="width:100%">
+                <img class="mySlides" src="img/IMG_2713.JPG" style="width:100%">
+                <img class="mySlides" src="img/IMG_2713.JPG" style="width:100%">
+            </div>
+            <!-- end slideshow -->
+
+
+
+            <p>
+                <span style="font-weight:bold">See my work here</span>
+            </p>
+
+            <!-- begin social container -->
+
+            <div class="social-icon-container">
+                <div class="box">
+                    <a href="www.salon.io/ivxr"><img src="img/salonio.png" style="max-width: 100px"></a>
+                </div>
+                <div class="box">
+                    <a href="www.instagram.com/xenia_photo_"><img src="img/Instagram_icon.png"
+                            style="max-width: 50px"></a>
+                </div>
+
+            </div>
+
+            <!-- end social container -->
+
+
+            </div>
+
+            <p>
+                <span style="font-weight:bold">Photo Exhibitions</span>
+            </p>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.cafe-53.com/">Cafe53</a>, Hyde Park, Chigago, IL, USA. 2020.</li>
+                </ul>
+
+            </div>
+
+        </section>
+        <section class="paint">
+
+            <div class="section-title">
+                Painting
+            </div>
+
+            <!-- begin grid -->
+
+            <div class="image-grid">
+                <a href="https://www.instagram.com/p/CBvjQBbpTZk/" class="image-fit" target="_blank">
+                    <img class="image-fit-placeholder" src="img/watercolor-1.png" alt="" />
+                    <img class="image-fit-img" src="img/watercolor-1.png" />
+                </a>
+
+                <a href="https://www.instagram.com/p/CFXkbr3HgaP/" class="image-fit" target="_blank">
+                    <img class="image-fit-placeholder" src="img/watercolor-2.png" alt="" />
+                    <img class="image-fit-img" src="img/watercolor-2.png" />
+                </a>
+
+                <a href="https://www.instagram.com/p/B_GuDlOJPtn/" class="image-fit" target="_blank">
+                    <img class="image-fit-placeholder" src="img/watercolor-3.png" alt="" />
+                    <img class="image-fit-img" src="img/watercolor-3.png" />
+                </a>
+
+            </div>
+
+            <!-- end grid -->
+            </div>
+        </section>
+
+
+    </section>
+
+
+    <!-- scripts -->
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 6000); // Change image every 6 seconds
+        }
+    </script>
+</body>
